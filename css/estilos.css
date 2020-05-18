@@ -1,0 +1,84 @@
+body{
+    margin:  2em;
+    background-color:white;
+    color: black;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 2.5cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+h1{
+    color: darkblue;
+    font-size: 18pt;
+    font-style: italic;
+    text-align: left;
+    text-decoration: underline;
+    letter-spacing: 8px;
+
+}
+h1:hover{
+background-color: blueviolet;
+
+
+}
+
+img{
+    text-indent: 0em;
+    text-align: center;
+    align-content: center;
+    border: solid;
+    border-width: thin;
+    border-color: darkcyan;
+
+  }
+/*le damos un alto y largo al div*/
+
+  button:hover{
+      color: crimson;
+  }
+  input:focus{
+      background-color: darkorange;
+
+  }
+  button:focus{
+      border-radius: 10px;
+      background-color: fuchsia;
+  }
+  /*
+  button:active{
+      background-color: indigo;
+      font-size: 25px;
+      transform: translateX(10px);
+  }
+  /*div{
+    width: 50px;
+    height: 50px;
+   background-color: mediumvioletred;
+  border-color: red;
+  padding: 50pt;
+  margin: 20pt;
+  transform: scale(1.5,1);
+ transform: rotate(45deg);
+ transform: skew(15deg,0);
+ border: 2px solid yellow;
+ text-align: center;
+ transition: all .1s;
+ border-radius: 25px;
+ transition-property: border-radius;
+ transition-delay: 1s;
+ transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}*/
+/*
+div:hover{
+    transform: translate(15px,12px);
+    transition-duration: 1s;
+    border-radius: 100px;
+}
+/*alterar el tamaño de un elemento scale*/
+
+ 
+
+      
+  

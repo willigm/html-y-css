@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="William Guzman">
+    <title>Practica Html y CSS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+            <nav class="navbar navbar-expand-lg navbar navbar-light">
+            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#frmenu" aria-controls="frmenu" aria-expanded="false"
+                aria-label="frmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="frmenu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link dropdown-toggle" id="menucategorias" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <div class="dropdown-menu" aria-labelledby="menucategorias">
+                            <a href="#">Categoria a</a>
+                            <a href="#">Categoria b</a>
+                            <a href="#">Categoria c</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">Proximamente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <H1>Barras de progreso </H1>
+    <div class="col">
+        <div class="progress mb-3">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 50% ; height: 20px; line-height: 40px;">50%</div>
+        </div>
+
+    </div>
+
+    <a NAME="principio"> </a>
+    <h1>Listas no ordenadas</h1>
+    <ul type=DISC>
+        <li>musica</li>
+        <li>imagenes</li>
+
+
+    </ul>
+    <ul type=CIRCLE>
+        <li>enlaces</li>
+        <li>videos</li>
+    </ul>
+    <ul type=SQUARE>
+        <li>documentos</li>
+        <li>descargas</li>
+    </ul>
+    <h1>listas ordenadas</h1>
+    <ol type="I">
+
+        <li>indice</li>
+        <li>objetivos</li>
+        <li>antecedentes</li>
+    </ol>
+    <h1>Tablas </h1>
+
+    <table border="1" CELLSPACING=10 CELLPADDING=20 bgcolor=lightblue>
+        <caption ALIGN=TOP>Horario 2020</caption>
+        <tr>
+
+            <th>Lunes </th>
+            <th>martes</th>
+            <th>miercoles</th>
+        </tr>
+
+        <tr>
+            <td>0,0</td>
+            <td>0,1</td>
+            <td>0,2</td>
+        </tr>
+        <tr>
+            <td>1,0</td>
+            <td>1,1</td>
+            <td>1,2</td>
+
+        </tr>
+        <tr>
+            <td>2,0</td>
+            <td>2,1</td>
+            <td>2,2</td>
+        </tr>
+    </table>
+    <h1>Ejemplo de enlaces</h1>
+
+    <h3>Enlaces Internos:</h3>
+    <ul type=DISC>
+        <li>
+            <a href="#principio">ir al principio del documento.</a>
+        </li>
+
+    </ul>
+    <h3>Enlaces Externos:</h3>
+    <ul type=square>
+        <li>
+            <a href="http://www.uni.edu.ni">IR a UNI</a>
+        </li>
+        <li>
+            <a href="http://www.claro.com.ni">Ir a Claro</a>
+        </li>
+    </ul>
+
+    <h1>ejemplo de frame</h1>
+    <table border="0" cellspacing=5>
+
+        <td>
+            <iframe src="http://www.uni.edu.ni" width="400" height="400" frameborder="0">>puedes visitar esta p&acute; en
+                <a href="http://www.uni.edu.ni"></a>
+            </iframe>
+        </td>
+    </table>
+
+    <h1>Im&aacute;genes practica jquery :v</h1>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <img id="img-1" class="img-responsive" src="imagenes/a6.jpg" alt="" align=middle width="400">
+    </div>
+    <button id="btncambiar" class="btnclick">Cambiar</button>
+
+    <h1>uso de embed</h1>
+    <h4> videos y musicas</h4>
+    <br>
+    <div class="container" class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+
+
+        <embed src="musica/Libros Tontos.mp3" type="" width="320" height="100">
+
+
+        <embed src="musica/Los temerario Quise olvidarme de ti.mp3" type="" width="320" height="100">
+
+        <embed src="musica/Los temerario tan indiferente.mp3" type="" width="320" height="100">
+
+        <embed src="musica/Los Temerarios - Pista 5.mp3" type="" width="320" height="100">
+
+        <embed src="musica/Los Temerarios Botella Envenenada.mp3" type="" width="320" height="100">
+
+
+        <embed src="videos/Adicto(Official Video).mp4" type="" width="500" height="250">
+
+        <embed src="videos/Gan-Ga[Official Video].mp4" type="" width="500" height="250">
+
+
+        <embed src="videos/yuridia.mp4" type="" width="500" height="250">
+
+        <embed src="videos/Jhay Cortez_ J. Balvin_ Bad Bunny - No Me Conoce .mp4" type="" width="500" height="250">
+
+    </div>
+    <input type="text">
+    <button class="btndobleclick">Click me!!</button>
+    <button class="btnmouseover">mouseover</button>
+    <input type="text" name="" id="">
+    <div class="desvanecer">
+    </div>
+    <button class="btndesv">desvanecer</button>
+    <div>w</div>
+    <div>g</div>
+    <div>m</div>
+
+    <h1>Usando bootstrap</h1>
+
+    <div class="card" style="width: 18rem;">
+        <img src="imagenes/background3.jpg" class="card-img-top rounded-circle" alt="" width="50" height="100">
+        <div class="card-body">
+            <h6 class="card-title">paisaje xd..</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore porro aspernatur perferendis adipisci sint nam
+                omnis atque modi, mollitia explicabo. Aspernatur, saepe ex? Perferendis temporibus voluptates inventore,
+                aspernatur nam voluptatibus.</p>
+            <a href="#" class="btn btn-prymary">ir a la pagina</a>
+        </div>
+    </div>
+    <h1>boton desplegable :v</h1>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle p-4" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true">
+            boton desplegable
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">opcion a</a>
+            <a class="dropdown-item" href="#">opcion b</a>
+            <a class="dropdown-item" href="#">opcion c</a>
+        </div>
+    </div>
+    <div class="container" class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <h1 class="text-center">Jumbotron</h1>
+        <div class="jumbotron bg-dark text-light">
+            <h1 class="display-5 text-light text-center">Esto es un jumbotron</h1>
+            <p class="lead"> esto es un texto secundario de jumbotron</p>
+            <hr class="my-3">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate sunt consequatur minima quam veritatis accusamus
+                officia odio culpa, quia quae exercitationem adipisci repellat omnis commodi voluptates ad distinctio qui
+                fugiat.
+            </p>
+            <button class="btn btn-info btn-lg">m&aacute;s informaci&oacute;n</button>
+        </div>
+    </div>
+
+    <h1>Practica jquery</h1>
+
+    <div class="primero">div 01</div>
+    <div class="segundo">div 2</div>
+    <div id="tercero">div 3</div>
+    <div class="cuarto">div 4</div>
+
+    <!-- información sobre el autor -->
+    <section id="info">
+        <h2 class="text-center">UN POCO SOBRE MI</h2>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <img class="card-img" src="imagenes/background7.jpg" alt="..." width="30" height="150">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores assumenda maiores, vitae, laudantium
+                        quisquam ducimus nihil dolorem impedit doloribus tempore quaerat rerum dicta ex voluptas fugiat numquam
+                        itaque ipsa inventore!</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- footer -->
+    <footer id="pie">
+        <div class="container">
+            <div class="row">
+                <p>Copyright &copy; 2020 Creado por
+                    <a href="https://williamgm2011@gmail.com/">Willipro</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="css/js/jquery-3.4.1.min.js"></script>
+    <script src="css/js/bootstrap.min.js"></script>
+    <script src="jquery/practica.js"></script>
+
+</body>
+
+</html>
